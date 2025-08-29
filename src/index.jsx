@@ -112,9 +112,9 @@ export default function App() {
                             <p className="max-w-3xl mx-auto text-lg md:text-xl text-gray-600 mb-8">
                                 Your generous donations help us continue our work in creating a more inclusive and accepting world for the LGBTQIA+ community.
                             </p>
-                            <button zeffy-form-link="https://www.zeffy.com/embed/donation-form/keep-our-community-going?modal=true" className="btn-discord inline-block bg-pink-500 text-white font-bold text-lg py-4 px-10 rounded-lg shadow-lg hover:bg-pink-600">
+                            <a href="https://www.zeffy.com/embed/donation-form/keep-our-community-going" className="btn-discord inline-block bg-pink-500 text-white font-bold text-lg py-4 px-10 rounded-lg shadow-lg hover:bg-pink-600">
                                 Donate Now
-                            </button>
+                            </a>
                         </section>
                     </main>
 
