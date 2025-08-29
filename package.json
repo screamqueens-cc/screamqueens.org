@@ -1,0 +1,30 @@
+{
+  "name": "sc",
+  "version": "1.0.0",
+  "homepage": "https://screamqueens.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx @tailwindcss/cli -i ./src/index.css -o ./dist/index.css --minify",
+    "build": "npm run build:css && esbuild src/index.jsx --bundle --outfile=dist/bundle.js --loader:.jsx=jsx --minify && cp -r public/. dist/ && gzipper compress ./dist",
+    "start": "esbuild --servedir=dist --loader:.jsx=jsx",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "@types/react": "^19.1.12",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.9",
+    "gh-pages": "^6.3.0",
+    "gzipper": "^7.2.0",
+    "tailwindcss": "^4.1.12"
+  }
+}
