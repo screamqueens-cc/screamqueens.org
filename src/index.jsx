@@ -46,7 +46,7 @@ export default function App() {
                             <a href="https://bsky.app/profile/screamqueenscc.bsky.social" className="text-blue-500 hover:text-blue-700 transition-colors">
                                 <FaBluesky className="w-6 h-6" />
                             </a>
-                            <a href="#" className="text-gray-800 hover:text-black transition-colors">
+                            <a href="https://www.tiktok.com/@scream.queens.cc" className="text-gray-800 hover:text-black transition-colors">
                                 <FaTiktok className="w-6 h-6" />
                             </a>
                         </div>
