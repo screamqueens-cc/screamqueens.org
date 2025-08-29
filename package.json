@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "npx @tailwindcss/cli -i ./src/index.css -o ./dist/index.css --minify",
-    "build": "npm run build:css && esbuild src/index.jsx --bundle --outfile=dist/bundle.js --loader:.jsx=jsx --minify && cp -r public/. dist/ && gzipper compress ./dist",
+    "build:css": "npx @tailwindcss/cli -i ./src/index.css -o ./dist/index.css",
+    "build": "npm run build:css && esbuild src/index.jsx --bundle --outfile=dist/bundle.js --loader:.jsx=jsx && cp -r public/. dist/",
     "start": "esbuild --servedir=dist --loader:.jsx=jsx",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
@@ -24,7 +24,6 @@
   "devDependencies": {
     "esbuild": "^0.25.9",
     "gh-pages": "^6.3.0",
-    "gzipper": "^7.2.0",
     "tailwindcss": "^4.1.12"
   }
 }
