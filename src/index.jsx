@@ -32,9 +32,7 @@ export default function App() {
                 <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
 
                     {/* Header */}
-                    <header className="flex justify-between items-center py-6">
-                        {/* Logo Placeholder */}
-                        {/* Social Icons */}
+                    <header className="flex flex-col md:flex-row justify-between items-center py-6 gap-6">
                         {/* Logo Placeholder */}
                         <div className="flex items-center">
                             <img src="logo.png" alt="Scream Queens Logo" className="h-24" />
