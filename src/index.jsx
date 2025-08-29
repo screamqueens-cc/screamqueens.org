@@ -123,9 +123,9 @@ export default function App() {
                         <p className="max-w-3xl mx-auto text-sm text-gray-500">
                             The Corporation is organized exclusively for charitable, educational, and recreational purposes within the meaning of Section 501(c)(3) of the Internal Revenue Code. The Corporation shall not participate in, or intervene in (including the publishing or distributing of statements), any political campaign on behalf of (or in opposition to) any candidate for public office.
                         </p>
-                        <p className="mt-6 text-sm text-gray-500">&copy; {new Date().getFullYear()} Scream Queens. All rights reserved.</p>
+                        <p className="mt-6 text-sm text-gray-500">&copy; {new Date().getFullYear()} 2025 Scream Queens Coaster Community Limited. All rights reserved.</p>
                         <p className="mt-4 text-sm text-gray-500">
-                            1207 Delaware Ave, Unit 3338, Wilmington, DE 19806 | EIN: 39-2529875
+                            1207 Delaware Ave, Unit 3338, Wilmington, DE 19806 | EIN: 39-2529875 | screamqueens.cc[at]gmail.com
                         </p>
                     </footer>
                 </div>
